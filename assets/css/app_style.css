@@ -1,0 +1,46 @@
+/* .partner-item {
+    border:1px solid green;
+    margin: -15px;
+} */
+
+.client {
+    background: lightgray;
+    padding: 70px 0px;
+}
+.client h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.client .client_section {
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+}
+.client .client_section .items {
+    /* padding: 10px; */
+    border: 0.1px solid rgb(140, 179, 140);
+    flex: 1;
+}
+
+.register {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.87), rgb(255, 255, 255)), url(../img/map-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.how-to-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+.reg-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-with){
+
+}
